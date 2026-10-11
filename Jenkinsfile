@@ -9,7 +9,7 @@ pipeline {
 
         stage('Clone Repository') {
             steps {
-                git 'https://github.com/greeshg/Dock.git
+                git 'https://github.com/greeshg/Dock.git'
             }
         }
 
